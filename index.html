@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Carousel Template · Bootstrap v5.1</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+      </style>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+    
+<header>
+
+
+  <!--NAV-->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div id="header" class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/codoacodo.png">
+        Conf Bs As</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+
+        <!--barra-->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los Oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conviertete en orador</a>
+          </li>
+          <li class="nav-item">
+            <a id="comprartickets" class="nav-link" href="#">Comprar Tickets</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+</header>
+<!--fIN-->
+
+
+
+
+<!--Galería-->
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div  class="carousel-inner">
+      <div  class="carousel-item active">
+  
+        <img  src="img/ba1.jpg" class="d-block w-100" alt="Buenos Aires 1" style="background-color: hsla(0, 28%, 5%, 0.529);">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+<!--BA1-->
+        <div class="container" style="text-align: left;"  >
+          <div class="carousel-caption text-start" >
+                <h1>Conf Bs As</h1>
+                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con
+                  <br> nuestra
+              comunidad el conocimiento y experiencia de los expertos que
+              <br> estan creando el futuro de Internet. Ven 
+            conocer a miembros del <br> evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel <br> que tenemos
+          para ti. Te esperamos!</p>
+
+          
+          <button type="button" class="btn btn-outline-light">Quiero ser Orador</button>
+          <button id="comprartick" class="btn btn-primary" type="submit">Comprar Tickets</button>
+        
+              </div>
+            </div>
+        </div>
+      </div>
+
+<!--BA2-->
+      <div class="carousel-item">
+        <img src="img/ba2.jpg" class="d-block w-100" alt="Buenos Aires 2">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        </div>
+      </div>
+<!--BA3-->
+      <div class="carousel-item">
+        <img src="img/ba3.jpg" class="d-block w-100" alt="Buenos Aires 3">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--FIN GALERIA-->
+
+<div style="text-align: center;" class="container" >
+
+  CONOCE A LOS <br>
+  <h1>ORADORES</h1>
+
+<div class="row">
+
+<div class="col-4">
+
+</div>
+
+</div>
+
+</div>
+
+
+  <!--CaRds-->
+
+<div class="container">
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/steve.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Steve Jobs</h5>
+            <button type="button" class="btn btn-warning">Java Script</button>
+            <button type="button" class="btn btn-info">React</button>
+
+            <p class="card-text"> Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Totam consequuntur amet velit! Iure 
+                suscipit id harum impedit saepe illum doloribus beatae 
+                fugiat aliquam veritatis adipisci voluptates nulla
+                 temporibus, magni labore.</p>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/bill.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bill Gates</h5>
+            <button type="button" class="btn btn-warning">Java Script</button>
+            <button type="button" class="btn btn-info">React</button>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Esse sunt sequi facere soluta porro
+                  nobis, excepturi ex eius dicta blanditiis aliquid ducimus
+                   ratione magni minus. Inventore iure quam nisi voluptates.</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/ada.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ada Lovelace</h5>
+            <button type="button" class="btn btn-secondary">Negocios</button>
+            <button type="button" class="btn btn-danger">Startups</button>
+
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Labore itaque, debitis sequi dolore provident
+                 laudantium amet minima asperiores est dolores recusandae
+                  architecto voluptatibus ducimus sit ad fugit, dicta deserunt dolor!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+<!--Imagen-->
+
+<div style="margin-top: 50px" class="card mb-6" style="max-width: auto;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="img/honolulu.jpg" class="img-fluid rounded-start" alt="Honolulu">
+    </div>
+    <div id="cardhono" class="col-md-6">
+      <div id="sobrehono" class="card-body">
+        <h5 class="card-title">Bs As - Octubre</h5>
+        <p class="card-text">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los
+             Estados Unidos. Honolulu es la mas sure;a de entre las principales ciudades estaunidenses. Aunque el
+              nombre de Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el 
+          condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente
+           600km² de superficie)</p>
+
+           <button type="button" class="btn btn-outline-light">Conocé más</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 50px" >  
+  <div style="text-align: center;" class="container" >
+
+      CONVIERTETE EN UN <br>
+    <h2>ORADOR</h2>
+
+    Anótate como orador para dar una charla ingnite. Cuentanos de qué quieres hablar!
+  </div>
+</div>
+
+  <!--fORMULARIO-->
+
+<div style="margin-top: 50px;" class="container col-6 " >
+
+  <div class="row pb-3">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+      </div>
+  </div>
+
+    <div class="form-floating col">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: auto"></textarea>
+      <label for="floatingTextarea2">Sobre qué quieres hablar? </label>
+    </div>
+  
+
+    <div class="col pb-5  pt-3 ">
+      <button id="Enviar" type="submit" class="btn btn-primary" style="width: 100%;">Enviar</button>
+    </div>
+  </div>
+    
+  </form>
+
+
+
+
+
+</div>
+
+<footer id="footer" class="pb-3 pt-3" >
+
+<div class="container pb-3 pt-3">
+
+  <div class="row">
+
+      <div class="col">
+           Preguntas <br>Frecuentes
+       </div>
+       <div class="col">
+          Contáctanos
+      </div>
+      <div class="col">
+          Prensa
+      </div>
+      <div class="col">
+          Conferencia
+      </div>
+      <div class="col">
+          Terminos y <br>Condiciones
+      </div>
+      <div class="col">
+          Privacidad
+      </div>
+      <div class="col">
+          Estudiantes
+      </div>
+
+  </div>
+
+
+
+</div>
+
+
+
+</footer>
+
+
+
+
+
+</body>
+</html>
